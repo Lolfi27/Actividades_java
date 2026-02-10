@@ -6,7 +6,7 @@ public class Producto {
     private double impuesto;
 
     public String getDescripcion(){
-        return codigo;
+        return descripcion;
     }
 
     public String getCodigo() {
