@@ -36,6 +36,9 @@ public class Actividad3 {
         System.out.print("Tipo: ");
         p.setTipo(sc.next());
 
+        System.out.print("Descripción: ");
+        p.setDescripcion(sc.next());
+
         System.out.print("Costo: ");
         p.setCosto(sc.nextDouble());
 
