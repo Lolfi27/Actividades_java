@@ -25,7 +25,7 @@ public class Producto {
         return impuesto;
     }
 
-    public void setDescripcion(){
+    public void setDescripcion(String descripcion){
         this.descripcion = descripcion;
     }
 
