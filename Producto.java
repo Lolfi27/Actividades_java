@@ -1,9 +1,13 @@
 public class Producto {
-
+    private String descripcion;
     private String codigo;
     private String tipo;
     private double costo;
     private double impuesto;
+
+    public String getDescripcion(){
+        return codigo;
+    }
 
     public String getCodigo() {
         return codigo;
@@ -19,6 +23,10 @@ public class Producto {
 
     public double getImpuesto() {
         return impuesto;
+    }
+
+    public void setDescripcion(){
+        this.descripcion = descripcion;
     }
 
     public void setCodigo(String codigo) {
@@ -40,6 +48,7 @@ public class Producto {
     public void muestraProducto() {
         System.out.println("Código: " + codigo);
         System.out.println("Tipo: " + tipo);
+        System.out.println("Descripción: " + descripcion);
         System.out.println("Costo: $" + costo);
         System.out.println("Impuesto: " + impuesto + "%");
     }
