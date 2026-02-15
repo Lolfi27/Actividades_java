@@ -1,3 +1,0 @@
-﻿# Trabajos_java
-
-Clase de Programación orientada a objetos
